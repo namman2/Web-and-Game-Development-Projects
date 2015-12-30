@@ -1,0 +1,137 @@
+/* Google.com CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+#container {
+    width: 580px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 130px;
+}
+
+h1#logo {
+    width: 272px;
+    height: 92px;
+    background: url('/img/googlelogo.png') top left no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+input[type="search"] {
+    width: 570px;
+    padding: 10px;
+    display: block;
+    margin: 25px 0 18px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+    font-family: Arial, sans-serif
+}
+
+input[type="search"]:hover {
+    border-color: #aaa;
+}
+
+input[type="submit"] {
+    background: #f2f2f2;
+    color: #757575;
+    border: solid 1px #f2f2f2;
+    padding: 10px 16px;
+    font-size: 13px;
+    margin: 11px 2px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    color: black;
+    border: solid 1px #7f7f7f;
+}
+
+small {
+    display: block;
+    margin: 10px 0 0 0;
+    font-size: 13px;
+    color: #222;
+    font-family: Arial,sans-serif;
+}
+
+a:link, a:visited {
+    color: dodgerblue;
+}
+
+nav#header{
+    text-align: right;
+    padding: 20px;
+}
+
+nav#header ul li {
+    display: inline;   
+}
+
+nav#header ul li a:link,
+nav#header ul li a:visited,
+footer nav ul li a:link,
+footer nav ul li a:visited {
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav#header ul li a:hover,
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav {
+    padding: 5px;
+    line-height: 40px;
+    border-top: solid 1px #e4e4e4;
+}
+
+nav#footer ul li {
+    display: inline;
+    float: left;
+    margin: 0 2px;
+}
+
+.right-links {
+    float: right;   
+}
+
+nav#header ul li.sign-in a {
+    display: inline-block;
+    color: #fff;
+    background: #4387fd;
+    border: solid 1px #4683ea;
+    padding: 7px 12px;
+    line-height: normal;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+nav#header ul li.sign-in a:hover {
+    border: 1px solid #4285f4;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;   
+}
